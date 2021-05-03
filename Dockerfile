@@ -1,4 +1,4 @@
-FROM traefik:v2.1.9
+FROM traefik:v2.4.8
 
 COPY entrypoint.sh /entrypoint.sh
 COPY monitor.sh /monitor.sh
